@@ -8,6 +8,7 @@
     "start": "node server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write .",
+    "dev:nuxt": "nuxt --config-file ./config/nuxt.ts",
     "build:all": "node ace build && nuxt build --config-file ./config/nuxt.ts"
   },
   "devDependencies": {
