@@ -4,6 +4,7 @@ export default {
   /*
    ** Headers of the page
    */
+  ssr: false,
   head: {
     title: 'Adonuxt',
     meta: [
