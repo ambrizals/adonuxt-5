@@ -1,6 +1,6 @@
 <template>
   <div>
-    Coba
+    Coba dolo yaa awkaokaokaok <nuxt-link to="coba">Coba</nuxt-link>
   </div>
 </template>
 

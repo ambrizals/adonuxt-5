@@ -20,4 +20,10 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', 'TestsController.index')
+Route.group(() => {
+  Route.get('/', async () => {
+    return 'hello from api'
+  })
+}).prefix('api')
+
+Route.get('*', 'NuxtsController.index')

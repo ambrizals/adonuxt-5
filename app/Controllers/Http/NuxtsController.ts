@@ -1,8 +1,9 @@
 import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import NuxtService from 'App/Services/nuxt'
 
-export default class TestsController {
+export default class NuxtsController {
   public async index(ctx: HttpContextContract) {
-    await NuxtService.render(ctx)
+    const renderer = NuxtService.render(ctx)
+    return renderer
   }
 }

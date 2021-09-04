@@ -4,6 +4,7 @@ export default {
   /*
    ** Headers of the page
    */
+  ssr: true,
   head: {
     title: 'Adonuxt',
     meta: [
@@ -40,4 +41,5 @@ export default {
    ** Point to resources
    */
   srcDir: resolve(__dirname, '..', 'resources'),
+  buildDir: resolve(__dirname, '..', 'build', '.nuxt'),
 }
