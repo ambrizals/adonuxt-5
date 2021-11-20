@@ -1,5 +1,17 @@
 {
   "commands": {
+    "build:all": {
+      "settings": {
+        "loadApp": false,
+        "stayAlive": true
+      },
+      "commandPath": "./commands/BuildAll",
+      "commandName": "build:all",
+      "description": "Build adonis module and nuxt module project",
+      "args": [],
+      "aliases": [],
+      "flags": []
+    },
     "dump:rcfile": {
       "settings": {},
       "commandPath": "@adonisjs/core/build/commands/DumpRc",

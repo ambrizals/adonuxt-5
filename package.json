@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
+    "build:nuxt": "nuxt build --config-file ./config/nuxt.ts",
     "start": "node server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write .",
